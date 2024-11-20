@@ -18,5 +18,5 @@ def register_purge_menu_item():
         "CDN purge",
         reverse("purge"),
         order=1000,
-        classname="icon icon-collapse-down",
+        icon_name="collapse-down",
     )
